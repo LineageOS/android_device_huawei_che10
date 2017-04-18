@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,10 +19,10 @@
 #
 
 # inherit from msm8916-common
--include device/huawei/msm8916-common/BoardConfigCommon.mk
+include device/huawei/msm8916-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := che10,Che1-CL10
 
 # inherit from the proprietary version
--include vendor/huawei/che10/BoardConfigVendor.mk
+include vendor/huawei/che10/BoardConfigVendor.mk
