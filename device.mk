@@ -15,6 +15,10 @@
 
 $(call inherit-product-if-exists, vendor/huawei/che10/che10-vendor.mk)
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
+
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
