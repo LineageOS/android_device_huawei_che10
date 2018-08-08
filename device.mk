@@ -23,7 +23,10 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
-    nfc_nci.pn54x.default
+    nfc_nci.che10
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.nfc_nci=che10
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
