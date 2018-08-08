@@ -24,5 +24,8 @@ include device/huawei/msm8916-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := che10,Che1-CL10
 
+# NFC
+BOARD_NFC_CHIPSET := pn547
+
 # inherit from the proprietary version
 include vendor/huawei/che10/BoardConfigVendor.mk
