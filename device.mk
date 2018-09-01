@@ -22,9 +22,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0-impl \
-    NfcNci \
-    nfc_nci.che10
+    NfcNci
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.nfc_nci=che10

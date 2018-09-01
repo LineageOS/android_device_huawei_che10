@@ -1,2 +1,4 @@
 # NFC
 vendor/firmware/libpn547_fw.so
+vendor/lib/hw/nfc_nci.che10.so
+vendor/lib/hw/android.hardware.nfc@1.0-impl.so
